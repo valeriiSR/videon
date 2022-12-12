@@ -1,0 +1,1063 @@
+@media (max-width: 576px) {
+	.footer-cont_{
+		position: relative;
+		height: 585px;
+	}
+	.footer-nav-items{
+		text-align: center;
+	}
+	.main-video-wrp{
+		text-align: center;
+	}
+	.ing-call_btn{
+		display: block;
+		margin: 0 auto;	
+	}
+	.footer-nav-item{
+		display: block;
+		margin-right: 0;
+	}
+	.videon-about_sub{
+		position: absolute;
+		bottom: -405px;
+	}
+	.user-agreement{
+		position: absolute;
+		bottom: -405px;
+	}
+	.black-triang{
+		padding-left: 0;
+	}
+	.learning-desc-btn{
+		margin: 0 auto;
+		margin-top: 70px;
+	}
+	.videon-about{
+		text-align: center;
+	}
+	.distributor h2{
+		font-size: 28px;
+		margin-top: -70px;
+	}
+	.contacts-wrp{
+		right: 0;
+		width: 100%;
+	}
+	.distributor{
+		margin-bottom: 0;
+	}
+	.black-triang{
+		background: none;
+	}
+	.learning-desc_ul li p{
+		line-height: 14px;
+	}
+	.comment-wrp-second{
+		display: none;
+	}
+	.comment-wrp-first{
+		left: 0;
+		width: 100%;
+	}
+	.comment-date{
+		padding-top: 40px;
+	}
+	.partner-list li{
+		text-align: center;
+	}
+	.ul-desc-img-wrp{
+		display: none;
+	}
+	.partner-list-img{
+    	width: 70%;
+    	height: 50%;
+    	text-align: center;
+    }
+	.elleven-section h2{
+		font-size: 26px;
+	}
+	.you_choyse{
+		margin-top: 30px;
+	}
+	.ing-call_btn{
+		margin-top: 25px;
+		margin-left: 58px;
+	}
+	.form-recall-send{
+		margin-top: 5px;
+	}
+	.form-recall-inp{
+		
+	}
+	.model-list{
+		margin-top: 40px;
+	}
+	.model-list-text{
+		margin-bottom: 5px;
+	}
+	.model-list-btn{
+		margin-bottom: 60px;
+	}
+	.model-list-text{
+		height: 95px;
+	}
+	.nine-section{
+		height: 100%;
+	}
+	/* Форма отправить заявку */
+	
+	.form-recall-inp{
+		margin-bottom: 40px;
+	}
+	.form-recall-wrp{
+		text-align: center;
+	}
+	label.form-recall-persdata{
+		margin-bottom: 25px;
+	}
+	label[for='form-recall-username']{
+		display: block;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	label[for='form-recall-email']{
+		display: block;
+		margin-bottom: 10px;	
+	}
+	.form-recall-username{
+		margin-left: 0;
+		width: 280px;
+	}
+
+	.form-recall-email{
+		margin-left: 0;
+		width: 280px;
+	}
+	.form-recall-persdata-chbx{
+		position: relative;
+		top: -5px;
+		left: -160px;
+	}
+	label.form-recall-persdata{
+		display: inline-block;
+	}
+	.pink-wrp {
+	    background: #E51859;
+	    margin-top: 0;
+	    min-height: 580px;
+	}
+	/* End. Форма отправить заявку */
+	
+
+	.seven-section{
+		height: 1600px;
+	}
+	.ul-desc-item h3, .ul-desc-item p{
+		margin-left: 60px;
+	}
+	.blue-triang{
+		margin-left: 40px;	
+		top: 3px;
+	}
+	.ul-desc-img-ins{
+		display: none;
+	}
+	.how-w{
+		display: none;
+	}
+	.carousel_2-wrp{
+		display: none;
+	}
+	.big-img{
+		display: none;	
+	}
+	.main-video-wrp{
+		margin-top: 0;
+	}
+	.calculate{
+		margin-left: 56px;
+	}
+	.main-video-wrp video{
+	    width: 360px;
+	    margin: 0 auto 40px;
+	}
+	.main-header .main-header-calldata p{
+		margin-left: 0;
+	}
+	.make-call{
+		margin-left: 0;
+	}
+	.main-slider-wrp{
+		display: none;
+	}
+	/* Навигация */
+  	
+  	.main-nav{
+  		visibility: hidden;
+  	}
+  	.main-header-logo{
+  		text-align: center;
+  	}
+  	.main-header-desc{
+  		text-align: center;	
+  	}
+  	.main-header-calldata{
+  		text-align: center;		
+  	}
+  	.burg_wrp{
+		display: block;
+		background: #1E2A46;
+	}
+	.z-section{
+		margin-top: 50px;
+	}
+	
+	.main-nav-items{
+		position: absolute;
+		top: 50px;
+		left: 0;
+		background: rgba(255,0,0,.4);
+		display: none;
+	}
+	.main-nav-item{
+		display: block;
+		background: #e1e1e1;
+		border: 1px solid #b5b5b5;
+		border-left: none;
+		border-right: none;
+		padding: 5px 0;
+		margin: 0;
+		margin-top: -1px;
+		line-height: 32px;
+		cursor: pointer;
+	}
+	.main-nav-item:first-child{
+		margin: 0;
+	}
+	.main-nav-item:hover{
+		background: #b5b5b5;
+	}
+	.main-nav-item a{
+		text-indent: 0;
+		color: #595959;
+	}
+	.main-nav-item a:hover{
+		color: #595959;	
+	}
+	.main-video-wrp{
+	    width: 540px;
+	    margin: 40px auto 40px;
+	    text-align: center;
+	}
+	.main-video-wrp iframe{
+		width: 100%;
+	}
+	/* END. Навигация */
+}
+@media (min-width: 576px) {
+	
+	.footer-nav-item{
+		display: block;
+	}
+	.contacts-wrp{
+		right: 30px;
+	}
+	.comment-wrp-first{
+		width: 100%;
+		top: 220px;
+		left: 0;
+	}
+	/*
+	.comment-wrp-first{
+		width: 607;
+		top: 264px;
+		left: 55px;
+	}
+	*/
+	
+	.comment-wrp-second{
+		display: none;
+	}
+	.learning-desc-img{
+    	width: 0;
+    	height: 0;
+    	margin-left: 0;
+    }
+	 .partner-list li{
+    	text-align: center;	
+    }
+	.ing-call_btn{
+		margin-top: 60px;
+	}
+	.you_choyse{
+		margin-top: 20px;
+	}
+	.nine-section{
+		height: 1560px;
+	}
+	.calculate{
+		margin-left: 150px;
+	}
+	.can-videon-last-item{
+  		margin: 0 auto;
+  	}
+	.model-list{
+		margin-top: 40px;
+	}
+	.model-list-text{
+		margin-bottom: 0;
+		height: 60px !important;
+	}
+	.model-list-btn{
+		margin-bottom: 40px;
+	}
+
+	/* Форма отправить заявку */
+	
+	.form-recall-inp{
+		margin-bottom: 40px;
+	}
+	.form-recall-wrp{
+		text-align: center;
+	}
+	label[for='form-recall-username']{
+		display: block;
+		margin-left: 27px;
+		margin-bottom: 10px;
+	}
+	label[for='form-recall-email']{
+		display: block;
+		margin-bottom: 10px;	
+	}
+	.form-recall-username{
+		margin-left: 55px;
+		width: 447px;
+	}
+	.form-recall-email{
+		margin-left: 18px;	
+	}
+	.form-recall-persdata-chbx{
+		position: relative;
+		top: -5px;
+		left: -160px;
+	}
+	label.form-recall-persdata{
+		display: inline-block;
+	}
+	.pink-wrp {
+	    background: #E51859;
+	    margin-top: 0;
+	    min-height: 580px;
+	}
+	/* End. Форма отправить заявку */
+	
+	.seven-section{
+		height: 930px;
+	}
+	.ul-desc-img-ins{
+  		background: none;	
+  	}
+	.form-calculate-wrp{
+		margin-top: -40px;
+		
+	}
+	.big-img img{
+  		width: 0;
+  		height: 0;
+  	}
+	.data-source img{
+  		width: 540px;
+  		height: 290px;
+  	}
+	
+	.main-video-wrp{
+	    width: 600px;
+	    margin: 40px auto 40px;
+	    text-align: center;
+	}
+	.main-video-wrp iframe{
+		width: 100%;
+	}
+	.main-slider-wrp{
+		display: none;
+	}
+	/* Навигация */
+  	
+  	.main-nav{
+  		visibility: hidden;
+  	}
+  	.main-header-logo{
+  		text-align: center;
+  	}
+  	.main-header-desc{
+  		text-align: center;	
+  	}
+  	.main-header-calldata{
+  		text-align: center;		
+  	}
+  	.burg_wrp{
+		display: block;
+	}
+	.z-section{
+		margin-top: 50px;
+	}
+	
+	.main-nav-items{
+		position: absolute;
+		top: 50px;
+		left: 0;
+		background: rgba(255,0,0,.4);
+		display: none;
+	}
+	.main-nav-item{
+		display: block;
+		background: #e1e1e1;
+		border: 1px solid #b5b5b5;
+		border-left: none;
+		border-right: none;
+		padding: 5px 0;
+		margin: 0;
+		margin-top: -1px;
+		line-height: 32px;
+		cursor: pointer;
+	}
+	.main-nav-item:first-child{
+		margin: 0;
+	}
+	.main-nav-item:hover{
+		background: #b5b5b5;
+	}
+	.main-nav-item a{
+		text-indent: 0;
+		color: #595959;
+	}
+	.main-nav-item a:hover{
+		color: #595959;	
+	}
+	/* END. Навигация */
+	.z-section{
+		margin-top: 50px;
+	}
+	.main-header-logo{
+  		text-align: center;
+  	}
+  	.main-header-desc{
+  		text-align: center;	
+  	}
+  	.main-header-calldata{
+  		text-align: center;		
+  	}
+  	.main-nav{
+  		visibility: hidden;
+  	}
+}
+@media (min-width: 768px) {
+	
+  	.contacts-wrp{
+		right: 110px; ;
+	}
+  	.comment-wrp-first{
+		width: 100%;
+		top: 220px;
+		left: 0;
+	}
+  	.comment-wrp-second{
+		display: block;
+	}
+  	.ing-call_btn{
+		margin-top: 94px;
+	}
+  	.calculate{
+		display: inline-block;
+		margin-left: 106px;
+	}
+  	.model-list-text{
+  		height: 116px !important;
+  	}
+  	.form-calculate-wrp{
+		margin-top: 127px;
+	}
+	.main-slider-wrp{
+		display: block;
+	}
+  	.footer-nav-item{
+		display: block;
+	}
+  	.learning-desc-img{
+    	width: 0;
+    	height: 0;
+    	margin-left: 205px;
+    }
+  	.partner-list-img{
+    	width: 70%;
+    	height: 50%;
+    	text-align: center;
+    }
+    .partner-list li{
+    	text-align: center;	
+    }
+  	.you_choyse{
+		margin-top: 44px;
+	}
+  	.model-list-text{
+  		margin-bottom: 0;
+  	}
+  	.model-list-btn{
+  		margin-bottom: 50px;
+  	}
+  	.nine-section {
+    	height: 990px;
+	}
+  	.seven-section{
+  		height: 900px;
+  	}
+  	.form-calculate-wrp{
+  		margin-top: 40px;
+  		margin-left: 150px;
+  	}
+  	.big-img{
+  		display: none;
+  	}
+  	.ul-desc-img-ins{
+  		background: none;	
+  	}
+  	.data-source img{
+  		width: 700px;
+  		height: 376px;
+  	}
+  	.main-video-wrp video{
+  		width: 700px;
+  	}
+  	.can-videon-last-item{
+  		margin: 0 auto;
+  	}
+  	.main-slider{
+  		width: 700px;
+  	}
+
+  	/* Навигация */
+  	
+  	.main-nav{
+  		visibility: hidden;
+  	}
+  	.main-header-logo{
+  		text-align: center;
+  	}
+  	.main-header-desc{
+  		text-align: center;	
+  	}
+  	.main-header-calldata{
+  		text-align: center;		
+  	}
+  	.burg_wrp{
+		display: block;
+	}
+	.z-section{
+		margin-top: 50px;
+	}
+	
+	.main-nav-items{
+		position: absolute;
+		top: 50px;
+		left: 0;
+		background: rgba(255,0,0,.4);
+		display: none;
+	}
+	.main-nav-item{
+		display: block;
+		background: #e1e1e1;
+		border: 1px solid #b5b5b5;
+		border-left: none;
+		border-right: none;
+		padding: 5px 0;
+		margin: 0;
+		margin-top: -1px;
+		line-height: 32px;
+		cursor: pointer;
+	}
+	.main-nav-item:first-child{
+		margin: 0;
+	}
+	.main-nav-item:hover{
+		background: #b5b5b5;
+	}
+	.main-nav-item a{
+		text-indent: 0;
+		color: #595959;
+	}
+	.main-nav-item a:hover{
+		color: #595959;	
+	}
+	/* END. Навигация */
+
+	/* Форма отправить заявку */
+	
+	.form-recall-inp{
+		margin-bottom: 40px;
+	}
+	.form-recall-wrp{
+		text-align: center;
+	}
+	label[for='form-recall-username']{
+		display: block;
+		margin-left: 27px;
+		margin-bottom: 10px;
+	}
+	label[for='form-recall-email']{
+		display: block;
+		margin-bottom: 10px;	
+	}
+	.form-recall-username{
+		margin-left: 55px;
+		width: 447px;
+	}
+	.form-recall-email{
+		margin-left: 18px;	
+	}
+	.form-recall-persdata-chbx{
+		position: relative;
+		top: -5px;
+		left: -160px;
+	}
+	label.form-recall-persdata{
+		display: inline-block;
+	}
+	.pink-wrp {
+	    background: #E51859;
+	    margin-top: 0;
+	    min-height: 580px;
+	}
+	/* End. Форма отправить заявку */
+	
+
+
+@media (min-width: 992px) {
+	
+  	.contacts-wrp{
+		right: 28px;
+	}
+  	.comment-wrp-first{
+		width: 607;
+		top: 264px;
+		left: 55px;
+	}
+  	.comment-wrp-second{
+		display: block;
+	}
+  	.ing-call_btn{
+		margin-top: 94px;
+	}
+  	.model-list-text{
+  		height: 86px !important;
+  	}
+  	.form-calculate-wrp{
+		margin-top: 127;
+	}
+  	.main-slider-wrp{
+		display: block;
+	}
+  	.comment-date{
+  		padding-top: 90px;
+  	}
+  	.you_choyse{
+		margin-top: 84px;
+	}
+	.big-img{
+  		display: block;
+  	}
+  	.form-calculate-wrp{
+		margin-top: 127px;
+		margin-left: 0;
+	}
+  	.main-video-wrp video{
+	    width: 922px;
+	    height: 467px;
+	    margin: 71px auto 94px;
+	}
+  	.main-nav{
+		height: 55px;
+		/* background: url('../images/nav-bg.jpg'); */
+		background: #1e2a46;
+	background: -moz-linear-gradient(45deg, #1e2a46 0%, #e51859 100%);
+	background: -webkit-linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+	background: linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+		background-position: center;
+		margin-top: 15px;
+		text-align: center;
+		visibility: visible;
+	}
+	.main-nav-items{
+		width: 100%;
+		position: static;
+		background: none;
+		display: block;
+	}
+	.main-nav-item{
+		display: inline-block;
+		line-height: 52px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		margin-left: 30px;
+		letter-spacing: 1.2px;
+		padding: 0;
+		padding-left: 24px;
+		background: none;
+		border: none;
+	}
+	.main-nav-item a{
+		color: #FFF;
+		text-indent: 20px;
+		text-decoration: none;
+	}
+	.main-nav-item a:hover{
+		color: #FFF;
+		text-decoration: none;	
+	}
+	.main-nav-item:first-child{
+		margin-left: -12px;
+	}
+	.main-nav-active{
+		background: url('../images/down-row.png') no-repeat;
+		background-position: left center;
+	}
+	.main-nav-item:hover{
+		background: url('../images/down-row.png') no-repeat;
+		background-position: left center;
+	}
+  	.z-section{
+  		margin-top: 0;
+  	}
+  	.burg_wrp{
+		display: none;
+	}
+  	.main-slider{
+  		width: 920px;
+  	}
+  	.data-source img{
+  		width: 920px;	
+  		height: 494px;
+  	}
+  	.big-img img{
+  		width: 480px;
+  		height: 320px;
+  	}
+  	.form-calculate-wrp{
+  		margin-top: 75px;
+  	}
+  	.six-section{
+		height: 700px;
+	}
+	.ul-desc-img-ins{
+		position: absolute;	
+		background: url('../images/portret.png') no-repeat;
+		background-size: 100%;
+		width: 413px;
+		height: 609px;
+		top: 38px;
+		left: 100px;	
+	}
+	.coll {
+    	margin-bottom: 40px;
+	}
+
+	/* Форма отправить заявку */
+	
+	.seven-section {
+    	height: 805px;
+	}
+	.form-recall-inp{
+		margin-bottom: 40px;
+	}
+	.form-recall-wrp{
+		text-align: center;
+	}
+	label[for='form-recall-username']{
+		display: block;
+		margin-left: 27px;
+		margin-bottom: 10px;
+	}
+	label[for='form-recall-email']{
+		display: block;
+		margin-bottom: 10px;	
+	}
+	.form-recall-username{
+		margin-left: 55px;
+		width: 447px;
+	}
+	.form-recall-email{
+		margin-left: 18px;	
+	}
+	.form-recall-persdata-chbx{
+		position: relative;
+		top: -5px;
+		left: -160px;
+	}
+	label.form-recall-persdata{
+		display: inline-block;
+	}
+	.pink-wrp {
+	    background: #E51859;
+	    margin-top: 0;
+	    min-height: 550px;
+	}
+	/* End. Форма отправить заявку */
+	
+	.nine-section {
+    	height: 960px;
+	}
+	.model-list-text {
+    	margin-bottom: 20px;
+    	height: 65px;
+    }
+    .model-list-btn{
+    	margin-bottom: 40px;
+    }
+    .partner-list-img{
+    	width: 80%;
+    	height: 60%;
+    }
+    .partner-list li{
+    	text-align: center;
+    }
+    .learning-desc-img{
+    	width: 360px;
+    	height: 359px;
+    	margin-left: 0;
+    }
+    .comment-wrp-first{
+    	width: 427px;	
+    }
+    .footer-nav-item{
+		display: block;
+	}
+	.ell-btn{
+		margin-bottom: 100px;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+  	.contacts-wrp{
+		right: 110px;
+	}
+  	.comment-wrp-first{
+		width: 607;
+		top: 264px;
+		left: 55px;
+	}
+  	.comment-wrp-second{
+		display: block;
+	}
+  	.ing-call_btn{
+		margin-top: 94px;
+	}
+  	.model-list-text{
+  		height: 116px !important;
+  	}
+  	.form-calculate-wrp{
+		margin-top: 127;
+	}
+  	.main-slider{
+  		width: 1109px;
+  		
+  	}
+  	.data-source img{
+  		width: 1070px;
+  		height: 575px;
+  	}
+  	.big-img img{
+  		width: 100%;
+  		height: 100%;
+  	}
+  	.form-calculate-wrp{
+		margin-top: 127px;
+	}
+	.six-section{
+		height: 800px;
+	}
+	.ul-desc-img-ins{
+		position: absolute;	
+		background: url('../images/portret.png') no-repeat;
+		width: 513px;
+		height: 709px;
+		top: 6px;
+		left: 100px;	
+	}
+	.coll {
+    	margin-bottom: 94px;
+	}
+	.seven-section {
+    	height: 705px;
+	}
+	.form-recall-inp{
+		margin-bottom: 0;
+	}
+	.form-recall-wrp{
+		text-align: left;
+	}
+	label[for='form-recall-username']{
+		display: inline-block;
+		margin-left: 27px;
+		margin-bottom: 10px;
+	}
+	label[for='form-recall-email']{
+		display: inline-block;
+		margin-bottom: 10px;	
+	}
+	.form-recall-username{
+		margin-left: 0px;
+	}
+	.form-recall-email{
+		margin-left: 0;	
+	}
+	.form-recall-persdata-chbx{
+		position: absolute;
+		top:109px;
+		left:57px;
+	}
+	.pink-wrp {
+	    background: #E51859;
+	    margin-top: 0;
+	    min-height: 425px;
+	}
+	.form-recall-username{
+		width: 321px
+	}
+	.nine-section {
+    	height: 740px;
+	}
+	.model-list-text {
+    	margin-bottom: 40px;
+    	height: 116px;
+    }
+    .model-list-btn{
+    	margin-bottom: 0;
+    }
+    .partner-list-img{
+    	width: 100%;
+    }
+    .learning-desc-img{
+    	width: 553px;
+    	height: 513px;
+    	margin-left: 0;
+    }
+    .comment-wrp-first{
+    	width: 607px;	
+    }
+    .footer-nav-item{
+		display: inline-block;
+	}
+	.ell-btn{
+		margin-top: -38px;
+	}
+	.burg_wrp{
+		display: none;
+	}
+	.z-section{
+		margin-top: 0;
+	}
+	.main-nav{
+		visibility: visible;
+		height: 55px;
+		/* background: url('../images/nav-bg.jpg'); */
+		background: #1e2a46;
+	background: -moz-linear-gradient(45deg, #1e2a46 0%, #e51859 100%);
+	background: -webkit-linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+	background: linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+		background-position: center;
+		margin-top: 15px;
+		text-align: center;
+	}
+	.main-nav-items{
+		width: 100%;
+		position: static;
+		background: none;
+		display: block;
+	}
+	.main-nav-item{
+		display: inline-block;
+		line-height: 52px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		margin-left: 30px;
+		letter-spacing: 1.2px;
+		padding: 0;
+		padding-left: 24px;
+		background: none;
+		border: none;
+	}
+	.main-nav-item a{
+		color: #FFF;
+		text-indent: 20px;
+		text-decoration: none;
+	}
+	.main-nav-item a:hover{
+		color: #FFF;
+		text-decoration: none;	
+	}
+	.main-nav-item:first-child{
+		margin-left: -12px;
+	}
+	.main-nav-active{
+		background: url('../images/down-row.png') no-repeat;
+		background-position: left center;
+	}
+	.main-nav-item:hover{
+		background: url('../images/down-row.png') no-repeat;
+		background-position: left center;
+	}
+	.main-video-wrp video{
+	    width: 922px;
+	    height: 467px;
+	    margin: 71px auto 94px;
+	}
+	.form-calculate-wrp{
+		margin-top: 127px;
+		margin-left: 0;
+	}
+	.you_choyse{
+		margin-top: 84px;
+	}
+	.comment-date{
+  		padding-top: 119px;
+  	}
+  	.main-slider-wrp{
+		display: block;
+	}
+	.five_section-text{
+		margin-top: 70px;
+	}
+	.model-list-text{
+		margin-bottom: 40px;
+		height: 116px;
+	}
+	.model-list{
+		margin-top: 40px;
+	}
+	.model-list-img-wrp{
+		height: 112px;
+		margin-top: 65px;
+	}
+	.calculate{
+		display: inline-block;
+		margin-left: 106px;
+	}
+	.main-header-desc{
+		text-align: left;
+	}
+	.main-header .main-header-calldata p{
+		margin-left: 63px;
+	}
+	.make-call{
+		margin-left: 78px;
+	}
+	.learning-desc-img{
+		width: 559px;
+		height: 557px;
+	}
+	.main-video-wrp{
+		margin-top: 70px;
+		margin-bottom: 24px;
+	}
+}
+

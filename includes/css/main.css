@@ -1,0 +1,1353 @@
+@font-face {
+    font-family: 'Manrope';
+    src: local('Manrope Semibold'), local('Manrope-Semibold'), url('../fonts/manrope/Manropesemibold.woff2') format('woff2'), url('../fonts/manrope/Manropesemibold.woff') format('woff'), url('../fonts/manrope/Manropesemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: local('Manrope Regular'), local('Manrope-Regular'), url('../fonts/manrope/Manroperegular.woff2') format('woff2'), url('../fonts/manrope/Manroperegular.woff') format('woff'), url('../fonts/manrope/Manroperegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: local('Manrope Medium'), local('Manrope-Medium'), url('../fonts/manrope/Manropemedium.woff2') format('woff2'), url('../fonts/manrope/Manropemedium.woff') format('woff'), url('../fonts/manrope/Manropemedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+h2.gradient{
+	font-size: 34px;
+  	font-family: "Montserrat";
+  	font-weight: 800;
+  	line-height: 1.2;
+  	background: #1e2a46;
+	background: -moz-linear-gradient(45deg, #1e2a46 0%, #e51859 100%);
+	background: -webkit-linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+	background: linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2a46', endColorstr='#e51859',GradientType=1 );
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.dash{
+	display: block;
+	width: 25px;
+	height: 7px;
+	background: #E51859;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.visually-hidden{
+	position: absolute; 
+	width: 1px;
+	height: 1px; 
+	margin: -1px;
+	border: 0; padding: 0;
+	clip: rect(0,0,0,0); overflow: hidden;
+}
+
+/* Common */
+
+
+/* Бургер */
+.burg_wrp{
+	width: 100%;
+	position: absolute;
+	height: 50px;
+	background: #1E2A46;
+	top: 0;
+}
+.burg{
+	position: absolute;
+    top: 9px;
+    right: 10px;
+    width: 48px;
+    height: 32px;
+    padding: 8px 12px;
+    background-color: transparent;
+    border: 1px solid #b5b5b5;
+    border-radius: 4px;
+}
+.burg:hover{
+	background: rgba(0,0,0,.3);
+}
+.icon-bar{
+	display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #b5b5b5;
+    border-radius: 1px;
+}
+.icon-bar:nth-child(2), .icon-bar:nth-child(3){
+	margin-top: 5px;
+}
+/* Бургер */
+
+
+#btn{
+	display: inline-block;
+	height: 38px;
+	font-family: 'Manrope', sans-serif;
+	background: none;
+	font-size: 13px;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	padding: 0 23px;
+}
+.button{
+	cursor: pointer;
+	display: inline-block;
+	height: 38px;
+	font-family: 'Manrope';
+	background: none;
+	font-size: 13px;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	padding: 0 23px;
+}
+.blue-btn{
+	color: #00A5E3;
+	border-color: #00a5e3;
+}
+.blue-btn:hover{
+	color: #0379a5;
+	border-color: #0379a5;
+}
+
+.pink-btn{
+	background: #E51859;
+	color: #FFF;
+}
+.pink-btn:hover{
+	background: #e55c87;
+}
+
+.blue-btn-fill{
+	background: #00A4E2;
+	color: #fff;
+}
+
+.blue-btn-fill:hover{
+	color: #FFF;
+	border: 2px solid #0379a5 !important;
+}
+.white_wrp{
+	background: #FFF;
+}
+.grey_wrp{
+	background: #F5F6F6;
+}
+
+/* END. Common */
+
+/* Header */
+
+.main-header-link{
+	text-decoration: none;
+}
+.main-header-title{
+	margin-top: 32px;
+	/*font-weight: 900;
+	font-size: 40px;
+	color: #000;
+	text-transform: uppercase;
+	padding-left: 2px;
+	letter-spacing: -1.9px;*/
+}
+.main-header-desc{
+	display: inline-block;
+	margin-top: 34px;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+}
+.main-header-desc h2{
+	padding-left: 33px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+}
+.header-worktime{
+	margin-top: 19px;
+    padding-left: 34px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 13px;   
+ 	color: #ff105c;
+ 	font-weight: 500 !important;
+}
+.black-text{
+	color: #2e2e2e;
+	font-weight: 400 !important;	
+}
+.main-header .main-header-calldata p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	margin-top: 27px;
+	margin-left: 73px;
+	font-size: 18px;
+}
+#phone-icon{
+	display: inline-block;
+	width: 16px;
+	height: 20px;
+	margin-right: 9px;
+	background: url("../images/call-icon-blue.png") no-repeat;
+}
+
+.make-call{
+	margin-top: -4px;
+	margin-left: 85px;
+	color: #00A5E3;
+	border: 2px solid #00a5e3;
+	border-radius: 20px;
+}
+
+/* END. Header */
+
+/* Main.nav */
+
+.main-nav{
+	height: 55px;
+	/* background: url('../images/nav-bg.jpg'); */
+	background: #1e2a46;
+	background: -moz-linear-gradient(45deg, #1e2a46 0%, #e51859 100%);
+	background: -webkit-linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+	background: linear-gradient(45deg, #1e2a46 0%,#e51859 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e2a46', endColorstr='#e51859',GradientType=1 );
+	
+	background-position: center;
+	margin-top: 15px;
+	text-align: center;
+}
+.main-nav-items{
+	width: 100%;
+}
+.main-nav-item{
+	display: inline-block;
+	line-height: 52px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	margin-left: 30px;
+	letter-spacing: 1.2px;
+	padding-left: 24px;
+	color: #FFF;
+	z-index: 1000;
+}
+
+.main-nav-item a{
+	color: #FFF;
+	text-indent: 20px;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%; 
+}
+.main-nav-item a:hover{
+	color: #FFF;
+	text-decoration: none;	
+}
+.main-nav-item:first-child{
+	margin-left: -12px;
+}
+.main-nav-active{
+	background: url('../images/down-row.png') no-repeat;
+	background-position: left center;
+}
+.main-nav-item:hover{
+	background: url('../images/down-row.png') no-repeat;
+	background-position: left center;
+}
+/* END. Main.nav */
+
+
+/* Слайдер */
+
+.main-slider-wrp{
+	height: 624px;
+	width: 100%;
+	text-align: center;
+	padding-left: 30px;
+}
+.main-slider{
+	position: relative;
+	background: url('../images/avia-bg.jpg') no-repeat;
+	width: 1109px;
+	height: 520px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.main-slider-in{
+	display: inline-block;
+	width: 33.33%;
+	height: 33.33%;
+	border: 1px solid #b5b5b5;
+	background: rgba(0,0,0,.5);
+}
+.main-slider-in-1{
+}
+.main-slider-in-2{
+}
+.main-slider-in-3{
+}
+.main-slider-in-4{
+	
+}
+.main-slider-in-5{
+	
+}
+.main-slider-in-6{
+	
+}
+/* END. Слайдер */
+
+
+/* Что умеет видено */
+.can-videon{
+	text-align: center;
+	margin-top: 81px;
+	width: 100%;
+}
+.four-items-wrp{
+	margin-top: 40px;
+}
+.four-items li, .three-items li{
+	display: inline-block;
+	text-align: center;
+}
+.three-items li span{
+	margin-top: 2px;
+	margin-bottom: 27px;
+	background-position: 0 10px;
+}
+.star_wrp{
+	display: inline-block;
+	width: 55px;
+	height: 65px;
+	background: url('../images/star.png') no-repeat;
+	background-position: center center;
+	margin-top: 32px;
+	margin-bottom: 22px;
+}
+.four-items-decs{
+	font-size: 14px;
+	font-family: 'Manrope';
+	font-weight: 500;
+	line-height: 21px;
+}
+.four_section{
+	min-height: 633px;
+}
+/* END. Что умеет видено */
+
+/* Лучше один раз увидеть */
+
+.five_section{
+	
+}
+.five_section_top{
+	margin-top: 78px;
+}
+.main-video-wrp{
+	width: 922px;
+	height: 467px;
+	margin: 71px auto 94px;
+}
+.five_section-text{
+	width: 960px;
+	margin: 0 auto;
+	padding-left: 21px;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.69px;
+}
+/* END. Лучше один раз увидеть */
+
+/* Карусель 2 */
+
+.carousel_2-wrp{
+	margin-top: 75px;
+	min-height: 446px;
+}
+.my-arroy-prev{
+	top: 115px  !important;
+	width: 32px;
+	height: 32px;
+	background: url('../images/blue-arrows.png') no-repeat;
+}
+.my-arroy-next{
+	top: 115px !important;
+	width: 32px;
+	height: 32px;
+	background: url('../images/blue-arrows.png') no-repeat;
+	background-position: 0 -33px;	
+}
+#carousel_2{
+	width: 734px;
+	margin: 0 auto;
+}
+.carousel-item{
+	text-align: center;
+}
+
+/* END. Карусель 2 */
+
+/* Блок с картинкой: как это работает? */
+
+.data-source{
+	margin-top: 76px;
+	text-align: center;
+	width: 100%;
+}
+.data-source img{
+	
+}
+
+/* END. Блок с картинкой: как это работает? */
+
+
+/* Расчитайте стоимость видеостены */
+.six-section{
+	margin-top: 104px;
+	padding-top: 72px;
+	height: 800px;
+}
+.big-img{
+	margin-top: 75px;
+}
+.form-calculate-wrp{
+	margin-top: 127px;
+}
+.form-calculate-wrp p{
+	font-family: 'Manrope';
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1.4px;
+	margin-bottom: 46px;
+}
+.calculate{
+	display: inline-block;
+	margin-left: 106px;
+}
+.oreint-wrp{
+	width: 254px;
+	overflow: hidden;
+	border: 1px solid #cad3df;
+	border-radius: 3px;
+	background: url(../images/down-row-contur.png) #FFF no-repeat;
+	background-position: 232px center;
+}
+.orientation{
+	display: inline-block;
+	width: 274px;
+	height: 38px;
+	border: none;
+	font-family: 'Manrope';
+	font-size: 14px;
+	color: #3C3F40;
+	text-indent: 9px;
+	background: transparent;
+}
+.form-calculate-items{
+	margin-top: 40px;
+	position: relative;
+	width: 254px;
+	height: 38px;
+}
+.form-calculate-items-twoo{
+	margin-top: 28px;
+}
+.inp-rows-wrp{
+	position: absolute;
+	right: 0;
+	top:0;
+	display: inline-block;
+	width: 60px;
+	height: 38px;
+	border: 1px solid #cad3df;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.goriz-pans-qty, .vert-pans-qty{
+	line-height: 20px;
+}
+.goriz-pans-inp, .vert-pans-inp{
+	height: 38px;
+	width: 40px;
+	position: absolute;
+	text-indent: 13px;
+	border: none;
+}
+.inp-ins-up, .inp-ins-down{
+	cursor: pointer;
+	display: block;
+	border:1px solid #ced6e1;
+	border-bottom: none;
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	background: url('../images/mini-up.png') no-repeat 5px center;
+	top: 0;
+	right: -22px;
+}
+.inp-ins-up{
+	top: -1px;
+}
+.inp-ins-down{
+	position: absolute;
+	margin-top: -1px;
+	background: url('../images/mini-down.png') no-repeat 5px center;
+	top: 19px;
+	right: -22px;		
+}
+.form-calculate-btn{
+	margin-top: 70px;
+	height: 45px;
+	width: 204px;
+	border-radius:25px;
+	margin-left: 25px;
+}
+/* END. Расчитайте стоимость видеостены */
+
+
+/* Блок 7 с картинкой */
+
+.mult-color-wrp{
+	background: url('../images/multy_bg.png') repeat-y center;
+	margin-top: 0px;
+	min-height: 641px;
+}
+.ul-desc{
+	margin-top: 88px;
+}
+ul.ul-desc li{
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+.ul-desc-item{
+	position: relative;
+}
+.ul-desc-item h3{
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 17px;
+	margin-left: 94px;
+}
+.ul-desc-item p{
+	font-size: 14px;	
+	color: #fff;
+	line-height: 24px;
+	margin-left: 94px;
+}
+.blue-triang{
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	width: 11px;
+	height: 16px;
+	background: url('../images/blue-row-right.png');
+	margin-left: 64px;
+}
+.ul-desc-item-f{
+	margin-bottom: 47px;
+}
+.ul-desc-item-s{
+	margin-bottom: 54px;
+}
+.ul-desc-item-t{
+	margin-bottom: 40px;
+}
+.ul-desc-img-wrp{
+	position: relative;
+}
+.ul-desc-img-ins{
+	position: absolute;	
+	background: url('../images/portret.png') no-repeat;
+	width: 513px;
+	height: 709px;
+	top: 6px;
+	left: 100px;
+}
+/* END. Блок 7 с картинкой */
+
+/*  Профессионалы выбирают видеон	*/
+
+.seven-section h2{
+	margin-top: 101px;
+}
+.seven-section{
+	height: 705px;
+}
+.coll{
+	margin-bottom: 94px;
+}
+.coll p{
+	margin-top: 83px;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+}
+.serv-desc{
+	height: 123px;
+	background-position: center top !important;
+	text-align: center;
+}
+.seven-section_bm{
+	margin-bottom: 83px;
+}
+.serv-desc-1{
+	background: url('../images/location.png') no-repeat;
+}
+.serv-desc-2{
+	background: url('../images/browser.png') no-repeat;	
+}
+.serv-desc-3{
+	background: url('../images/24-hours.png') no-repeat;
+}
+.serv-desc-4{
+	background: url('../images/thought2.png') no-repeat;
+}
+.serv-desc-5{
+	background: url('../images/monitor.png') no-repeat;
+}
+.serv-desc-6{
+	background: url('../images/eye.png') no-repeat;
+}
+/*  END. Профессионалы выбирают видеон	*/
+
+/* PINK form */
+
+.pink-wrp{
+	background: #E51859;
+	margin-top: 0;
+	min-height: 425px;
+}
+.pink-wrp-hr{
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFF;
+	margin-top: 89px;
+	text-align: center;
+	width: 100%;
+}
+.form-recall-name{
+}
+.form-recall{
+	margin-top: 44px;
+}
+.form-recall-inp{
+	width: 321px;
+	height: 46px;
+	background: #1E2A46;
+	border: none;
+	text-indent: 21px;
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.form-recall-username{
+	margin-left: 27px;
+	color: #f5f6f6;
+}
+.form-recall-email{
+	width: 445px;
+	color: #f5f6f6;
+}
+
+label[for='form-recall-username']{
+	display: inline-block;
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+	color: #f5f6f6;
+	margin-left: 27px;
+	margin-bottom: 10px;
+}
+label[for='form-recall-email']{
+	display: inline-block;
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+	color: #f5f6f6;
+	margin-bottom: 10px;	
+}
+label.form-recall-persdata{
+	display: block;
+	font-family: 'Open sans', sans-serif;
+	font-size: 11px;
+	color: #fff;
+	margin-top: 30px;
+	margin-left: 66px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.form-recall-persdata-chbx{
+	position: absolute;
+	top:109px;
+	left:57px;
+}
+.form-recall-send{
+	margin-top: 35px;
+	margin-left: 24px;
+	height: 42px;
+	width: 206px;
+}
+.form-recall-send:hover{
+	border: 2px solid #0379a5 !important;
+}
+/* END. PINK form */
+
+
+/* Модели контроллеров видеостен */
+
+.nine-section{
+	height: 740px;
+}
+.nine-section-hr{
+	margin-top: 95px;
+	width: 100%;
+	text-align: center;
+}
+.model-list{
+	margin-top: 106px;
+	text-align: center;
+}
+
+.model-list-img-wrp{
+	height: 112px;
+}
+.model-list-btn{
+	height: 46px;
+	width: 157px;
+	border-radius:25px;
+}
+.model-list-hr{
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 16px;
+	color: #000;
+	margin-top: 27px;
+	margin-bottom: 22px;
+	text-align: center;
+}
+.model-list-text{
+	margin-bottom: 40px;
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;	
+	height: 116px;
+}
+/* END. Модели контроллеров видеостен */
+
+/* ten section */
+
+.dark-blue{
+	background: #1e2a46;
+	height: 230px;
+}
+.you_choyse{
+	font-family: "Montserrat";
+	font-weight: 400;
+	color: #fff;
+	font-size: 22px;
+	line-height: 30px;
+	margin-top: 84px;
+	text-align: center;
+}
+.ing-call_btn{
+	margin-top: 94px;
+	text-align: center;
+	margin-left: 125px;
+	height: 46px;
+	width: 268px;
+	border-radius:25px;
+}
+
+/* END. ten section */
+
+/* elleven-section */
+
+.elleven-section h2{
+	margin-top: 97px;
+}
+.lng-header{
+	width: 100%;
+	text-align: center;
+}
+.partner-list{
+	margin-top: 100px;
+	width: 100%;
+}
+.partner-list-hr{
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: 48px;
+	margin-bottom: 25px;
+	color: #000;
+	text-align: center;
+}
+.partner-list-text{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #3C3F40;
+	line-height: 22px;
+	text-align: center;
+}
+.ell-btn{
+	display: block;
+	margin: 0 auto;
+	margin-top: 17px;
+	margin-bottom: 100px;
+	border-radius: 25px;
+	width: 157px;
+	height: 46px;
+}
+
+/* END. elleven-section */
+
+
+/* Центр обучения videon */
+
+.mult-color-wrp-rew{
+	background: url('../images/multy_bg_rew.png') repeat-y center;
+	height: 651px;
+}
+.learning-desc h3{
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 22px;
+	margin-top: 104px;
+	margin-left: 25px;
+	color: #FFF;
+}
+.learning-desc p{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 46px;
+	margin-left: 27px;
+	line-height: 24px;
+	color: #FFF;
+}
+.learning-desc_ul{
+	margin-top: 12px;
+	margin-left: 2px;
+}
+.learning-desc_ul li{
+	height: 54px;
+	margin-bottom: 10px;
+}
+.learning-desc_ul li:last-child{
+	margin-top: -27px;
+}
+.learning-desc_ul li p{
+	display: inline-block;
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	color: #FFF;
+}
+.black-triang{
+	display: inline-block;
+	background: url('../images/dark-blue-row-right.png') no-repeat;
+	background-position: 0 4px;
+	height: 24px;
+	padding-left: 24px;
+}
+.learning-desc-btn{
+	display: block;
+	margin-top: 99px;
+	margin-left: 26px;
+	border-radius: 25px;
+	width: 157px;
+	height: 46px;
+}
+
+/* END. Центр обучения videon */
+
+/* Блок с комментариями */
+
+.comments-main-wrp h2{
+	margin-top: 98px;
+}
+.comments-main-wrp{
+	height: 683px;
+}
+.comments-main-wrp-ins{
+	position: relative;
+}
+.comment-header{
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 16px;
+	color: #1e2a46;
+	margin-bottom: 14px;
+	padding-top: 44px;
+	padding-left: 53px;
+}
+.comment-wrp-second .comment-header{
+	padding-top: 36px;
+	padding-left: 42px;	
+	margin-bottom: 20px;
+}
+.comment-text{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	color: #1e2a46;
+	padding-left: 53px;
+}
+.comment-wrp-second .comment-text{
+	padding-left: 44px;	
+	padding-right: 20px;
+}
+.comment-wrp-first{
+	display: inline-block;
+	z-index:1;
+	position: absolute;
+	padding-right: 45px;
+	top: 264px;
+	left: 55px;
+  	border-width: 1px;
+  	border-color: rgb(232, 232, 232);
+  	border-style: solid;
+  	background-color: rgb(255, 255, 255);
+  	box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  	width: 607px;
+  	height: 322px;
+}
+.comment-wrp-second{
+	display: inline-block;
+	top:231px;
+	right: 10px;
+	position: absolute;
+	border-width: 1px;
+  	border-color: rgb(232, 232, 232);
+  	border-style: solid;
+  	background-color: rgb(255, 255, 255);
+  	box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.1);
+  	width: 507px;
+  	height: 269px;
+}
+.comment-date{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 119px;
+	padding-left: 53px;
+}
+.comment-wrp-second .comment-date{
+	padding-top: 11px;
+	padding-left: 32px;	
+	font-size: 12px;
+}
+
+/* END. Блок с комментариями */
+
+
+/* Официальный дистрибьтор */
+
+.distributor{
+	height: 183px;
+}
+
+/* END. Официальный дистрибьтор */
+
+
+/* Footer Контакты */
+
+.map-wrp{
+	background: url(../images/footer-map.jpg) no-repeat center;
+	height: 825px;	
+	position: relative;
+}
+.contacts-wrp{
+  	background-color: rgb(255, 255, 255);
+  	box-shadow: 0px 4px 36.48px 1.52px rgba(54, 54, 54, 0.33);
+  	position: absolute;
+	right: 110px;
+  	top: 90px;
+  	width: 505px;
+  	height: 569px;
+}
+.contacts-wrp h3{
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 24px;
+	color: #373737;
+	margin-top: 77px;
+	margin-bottom: 79px;
+	text-align: center;
+}
+.contacts-wrp-list{
+}
+.contacts-wrp-list li{
+	font-family: 'Manrope', sans-serif !important;
+	font-weight: 500 !important;
+	line-height: 24px;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+.contacts-icons{
+	margin-left: 43px;
+	margin-bottom: 20px;
+	display: inline-block;
+	padding-left: 44px;
+}
+.icon-map-point{
+	background: url('../images/map-point.png') no-repeat;
+}
+.icon-phone{
+	background: url('../images/call-icon.png') no-repeat;	
+	margin-bottom: 24px;
+}
+.icon-email{
+	background: url('../images/email-icon.png') no-repeat;
+	margin-bottom: 25px;
+}
+.icon-calendar{
+	background: url('../images/calendar-icon.png') no-repeat;		
+}
+
+/* END. Footer Контакты */
+
+
+/* Footer */
+
+.videon-about{
+	margin-top: 30px;
+}
+.videon-about p{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	color: #fff;
+	margin-top: 6px;
+	line-height: 14px;
+	margin-bottom: 19px;
+}
+p.videon-about_sub{
+	font-size: 10px;
+	margin-bottom: 0;
+}
+.user-agreement{
+	font-family: 'Manrope', sans-serif !important;
+	font-size: 10px;
+	color: #fff;
+}
+.footer-nav-items{
+	width: 100%;
+	margin-top: 49px;
+}
+.footer-nav-item{
+	display: inline-block;
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 12px;
+	margin-right: 18px;
+}
+.footer-nav-item a{
+	color: #fff;
+	text-decoration: none;
+}
+.footer-nav-item:last-child{
+	margin-right: 0;
+}
+.footer-contacts{
+	margin-top: 54px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+.footer-contacts-list li{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	color: #fff;
+	margin-bottom: 7px;
+	line-height: 18px;
+}
+.footer-contacts-list li b{
+	font-weight: 700;
+}
+.created{
+	width: 100%;
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	margin-top: 16px;
+}
+.created a{
+	color: #fff;
+}
+.footer-cont_{
+	height: 271px;
+}
+/* END. Footer */
+
+
+/* Response answer */
+.response-answer{
+	position: absolute;
+	z-index: 4;
+	display: none;
+	width: 100%;
+	background-color: rgba(0,0,0,.9);
+}
+.well, .err{
+	width: 300px;
+	height: 200px;
+	position: fixed;
+	top: 40px;
+	color: #2c3e50;
+	font-size: 26px;
+	line-height: 32px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	display: none;
+}
+.well{
+	background-color: #2ecc71;
+}
+.err{
+	background-color: #e67e22;	
+}
+.preloder{
+	display: block;
+	width: 100px;
+	margin: 10px auto;
+	height: 5px;
+	border: 1px solid #34495e;
+	background-color: transparent;
+	overflow: hidden;
+	position: relative;
+}
+.preloder_ins{
+	width: 100px;
+	position: absolute;
+	top:0;
+	left:-100px;
+	height: 5px;
+	background-color: #f1c40f;
+}
+/* END. Response answer */
+
+
+/* popup form */
+
+.popup_form_wrp{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background-color: rgba(0,0,0,.9);
+	position: absolute;
+	z-index: 2;
+	display: none;
+}
+@media (max-width: 576px){
+	.popup-form{
+		width: 300px;	
+	}	
+}
+@media (min-width: 576px){
+	.popup-form{
+		width: 400px;	
+	}		
+}
+@media (min-width: 768px){
+	.popup-form{
+		width: 600px;	
+	}
+}
+@media (min-width: 992px){
+	.popup-form{
+		width: 600px;	
+	}	
+}
+@media (min-width: 1200px){
+	.popup-form{
+		width: 600px;	
+	}
+}
+.popup-form{
+	min-width: 300px;
+	max-width: 600px;
+	/* margin: 80px auto 0; */
+	background-color: #ecf0f1;
+	padding: 40px 40px;
+	z-index: 3;
+	cursor: default;
+	position: fixed;
+	top: 40px;
+}
+.call-back, .order-calculate, .edu-form{
+	display: none;
+}
+.popup-form form{
+	position: relative;
+}
+.call-back label{
+	display: block;
+	color: #7f8c8d;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 12px;
+}
+.popup_form_hr{
+	text-transform: uppercase;
+	color: #34495E;
+	text-align: center;
+	font-weight: bold;
+}
+.popup_form_tx{
+	color: #34495E;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Кнопка */
+.popup-form-close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 16px;
+	height: 16px;
+	opacity: 0.8;
+	border: none;
+}
+.popup-form-close:hover {
+	opacity: 1;
+}
+.popup-form-close:before, .popup-form-close:after {
+	position: absolute;
+	left: 6px;
+	top: 0;
+	content: ' ';
+	height: 16px;
+	width: 2px;
+	background-color: #333;
+}
+.popup-form-close:before {
+	transform: rotate(45deg);
+}
+.popup-form-close:after {
+	transform: rotate(-45deg);
+}
+.popup-form-close:hover{
+	background-color: #1E2A46;
+}
+/* END. кнопка */
+
+
+
+.call-back input, .order-calculate input, .edu-form input{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 0 10px;
+	display: block;
+	width: 100%;
+	background-color: #1E2A46;
+	height: 44px;
+	border: none;
+	color: #ECF0F1;
+	border-radius: 4px;
+}
+.edu-form input::placeholder,
+.order-calculate input::placeholder,
+.call-back input::placeholder{
+	color: #FFF;
+}
+.edu-form input[type="submit"],
+.order-calculate input[type="submit"],
+.call-back input[type="submit"]{
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	font-size: 16px;
+	height: 42px;
+	font: inherit;
+	color: #fff;
+	font-weight: bold;
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+	border: none;
+	background-color: #3498db;
+}
+.edu-form input[type="submit"]:hover,
+.order-calculate input[type="submit"]:hover,
+.call-back input[type="submit"]:hover{
+	background-color: #2980b9;	
+}
+.form-ins-desc{
+	margin-top: 20px;
+}
+.more_partners_hr{
+	font-size: 26px;
+	color: #2C3E50;
+	line-height: 26px;
+	font-weight: bold;
+}
+.more_partners_tx{
+	font-size: 22px;
+	color: #34495E;
+}
+.more_partners li{
+	border: 1px solid #00A4E2;
+	padding: 20px 40px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.more_partners{
+	display: none;
+}
+/* END. popup form */
+
+@media (max-width: 576px) {
+	.tmp:before{
+  		content: 'Extra small';
+	}
+}
+@media (min-width: 576px) {
+	.tmp:before{
+  		content: 'sm';
+	}
+}
+@media (min-width: 768px) {
+	.tmp:before{
+  		content: 'md';
+  	}
+@media (min-width: 992px) {
+	.tmp:before{
+  		content: 'lg';
+  	}
+}
+@media (min-width: 1200px) {
+	.tmp:before{
+		content: 'xl';
+  	}
+}	
