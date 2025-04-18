@@ -12,3 +12,5 @@ Flex и Grid в то время **не** использовал.
  - HTML 5
  - CSS 3
  - jQuery
+
+![Screenshot_1](https://github.com/user-attachments/assets/b83ee2f5-f4a6-4755-ade0-69b70a5cf343)
